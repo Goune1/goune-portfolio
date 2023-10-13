@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
-    
 }
 
 body {
@@ -149,12 +148,13 @@ body {
     background: #081b29;
     height: 100vh;
     display: flex;
-    align-items: center;
     border-bottom: 3px solid black;
     padding-left: 10%;
 }
 
 .discover-content {
+    position: relative;
+    top: 10%;
     width: 670px;
     max-height: 130px;
 }
@@ -170,10 +170,15 @@ body {
     font-weight: 700;
 }
 
+.player {
+    position: relative;
+    top: 17%;
+}
+
 .imglolbox {
     display: flex;
     justify-content: space-between;
-    gap: 3%;
+    gap: 10%;
     align-items: center;
     padding-right: 40%;
     padding-top: 15%;
